@@ -195,7 +195,62 @@
             color: gray;
             padding: 12px 0;
         }
-        
+
+        @media screen and (max-width: 1569px) {
+            
+            nav{
+                flex-direction: column;
+                height: 95px;
+            }
+
+            body {
+                /*background-color: red;*/
+            }
+
+            .firstSection {
+                flex-direction: column-reverse;
+            }
+
+            .box {
+                flex-direction: column;
+            }
+
+            .SecondSection .vertical {
+                height: unset;
+            }
+            .SecondSection .box{
+                width: 50vw;
+            }
+
+            .vertical-title, .vertical-desc, .vertical-title-last,.vertical-desc-last {
+                left: 30px;
+            }
+
+            .image-top {
+                top: 101px;
+                left: -36px;
+            }
+
+            .footer {
+                display: none;
+            }
+            .firstSection{
+                flex-direction: column-reverse;
+                
+            }
+            .leftSection{
+                width: 100% !important;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .rightSection{
+                width: 72% !important;
+            }
+            
+
+        }
     </style>
 </head>
 
@@ -219,12 +274,12 @@
     <main>
         <section class="firstSection">
             <div class="leftSection">
-                Hai, My name is <span class="Purple">Vaishnav.</span>
+                <div>Hai, My name is <span class="Purple">Vaishnav.</span></div>
                 <div>And I am a passionate </div>
                 <span id="element"></span>
                 <div class="buttons">
                     <button class="btn">Download Resume</button>
-                        
+
                     <button class="btn">Github</button>
                 </div>
             </div>
