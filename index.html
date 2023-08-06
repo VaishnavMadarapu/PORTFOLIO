@@ -196,9 +196,14 @@
             padding: 12px 0;
         }
 
-        @media screen and (max-width: 1569px) {
-            
-            nav{
+        @media screen and (max-width: 240px) {
+
+            width: 164vw;
+        }
+
+        @media screen and (max-width: 1500px) {
+
+            nav {
                 flex-direction: column;
                 height: 95px;
             }
@@ -218,12 +223,19 @@
             .SecondSection .vertical {
                 height: unset;
             }
-            .SecondSection .box{
+
+            .SecondSection .box {
                 width: 50vw;
             }
 
-            .vertical-title, .vertical-desc, .vertical-title-last,.vertical-desc-last {
+            .vertical-title,
+            .vertical-desc,
+            .vertical-title-last,
+            .vertical-desc-last {
                 left: 30px;
+            }
+            .vertical-desc-last{
+                width:191px;
             }
 
             .image-top {
@@ -231,24 +243,48 @@
                 left: -36px;
             }
 
-            .footer {
-                display: none;
-            }
-            .firstSection{
+            
+
+            .firstSection {
                 flex-direction: column-reverse;
-                
+
             }
-            .leftSection{
+
+            .leftSection {
                 width: 100% !important;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
             }
-            .rightSection{
+
+            .rightSection {
                 width: 72% !important;
             }
-            
+
+            .SecondSection {
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 125vh;
+            }
+
+            body {
+                min-width: fit-content;
+            }
+
+            .rightSection {
+                width: 721px !important;
+                display: flex;
+                justify-content: center;
+            }
+
+            .rightSection img {
+                width: 45vw;
+                margin-bottom: -95px;
+                margin-top: 13px;
+            }
 
         }
     </style>
@@ -260,12 +296,9 @@
             <div class="left">Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href=""> Home</a></li>
-                    <li><a href=""> About</a></li>
-                    <li><a href=""> Services</a></li>
-                    <li><a href=""> Projects</a></li>
-                    <li><a href=""> Contact Me</a></li>
-
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="About.html"> About</a></li>
+                    
                 </ul>
             </div>
         </nav>
@@ -296,7 +329,7 @@
                 <div class="vertical">
                     <img class="image-top" src="Developer.png">
                     <div class="vertical-title">
-                        Web Development Intern(2020-2021)
+                       Tejaswi High School
                     </div>
                     <div class="vertical-desc">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia error qui voluptatibus. Assumenda
@@ -308,7 +341,7 @@
                 <div class="vertical">
                     <img class="image-top" src="Designer.png">
                     <div class="vertical-title">
-                        Graphic Designer(2021-2022)
+                        Sri Chaitanya Junior College
                     </div>
                     <div class="vertical-desc">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quidem
@@ -319,7 +352,7 @@
                 <div class="vertical">
                     <img class="image-top" src="Marketing.png">
                     <div class="vertical-title">
-                        Marketing Specialist(Jan,2022 - April,2022)
+                        Urbane Junior College
                     </div>
                     <div class="vertical-desc">
                         Ipsum dolor sit amet consectetur adipisicing elit. Sit cumque ipsam
@@ -332,7 +365,7 @@
                 <div class="vertical">
                     <img class="image-top" src="HR_Manager.png">
                     <div class="vertical-title">
-                        HR Manager(05/2022-06/2022)
+                        Kaktiya Institute of Technology & Science.
                     </div>
                     <div class="vertical-desc">
                         Dolor sit amet consectetur adipisicing elit. Velit facilis
@@ -341,30 +374,7 @@
                     </div>
 
                 </div>
-                <div class="vertical">
-                    <img class="image-top" src="Influencer.png">
-                    <div class="vertical-title">
-                        Influencer(2022-Till Date)
-                    </div>
-                    <div class="vertical-desc">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quia
-                        perferendis repellat natus doloremque laboriosam velit rerum optio
-                        voluptatum!
-
-                    </div>
-                </div>
-                <div class="vertical">
-                    <img class="image-top" src="Marketing_Specialist.png">
-                    <div class="vertical-title-last">
-                        Marketing Specialist(2022-Till Date)
-                    </div>
-                    <div class="vertical-desc-last">
-                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                        Sit amet consectetur adipisicing elit. Consectetur corporis autem
-                        debitis eaque quam maxime fugit tempora accusamus eos ipsa
-
-                    </div>
-                </div>
+                
 
             </div>
 
@@ -380,24 +390,20 @@
                 <ul>
                     <li>Home</li>
                     <li>About</li>
-                    <li>Content</li>
-                    <li>Services</li>
+           
                 </ul>
             </div>
             <div class="footer-third">
                 <ul>
                     <li>Home</li>
                     <li>About</li>
-                    <li>Content</li>
-                    <li>Services</li>
                 </ul>
             </div>
             <div class="footer-fourth">
                 <ul>
                     <li>Home</li>
                     <li>About</li>
-                    <li>Content</li>
-                    <li>Services</li>
+                    
                 </ul>
             </div>
         </div>
